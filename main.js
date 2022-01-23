@@ -41,7 +41,7 @@ const createOptionsTemplate = (data) => {
 };
 // get values from the API
 const importAPIValues = () => {
-  let api = "http://api.nbp.pl/api/exchangerates/tables/a/";
+  let api = "https://api.nbp.pl/api/exchangerates/tables/a/";
   fetch(api)
     .then((response) => response.json())
     .then((data) => {
